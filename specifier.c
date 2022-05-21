@@ -8,7 +8,7 @@
  */
 int (*get_specifier(char *s))(va_list ap, params_t *params)
 {
-	specifier_t specifiers[] = {
+	convert_match specifiers[] = {
 		{"c", print_char},
 		{"d", print_int},
 		{"i", print_int},
@@ -135,4 +135,4 @@ char *get_width(char *s, params_t *params, va_list ap)
 	}
 	params->width = d;
 	return (s);
-}	
+}
