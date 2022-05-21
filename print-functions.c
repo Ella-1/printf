@@ -21,8 +21,7 @@ int print_char(va_list ap, params_t *params)
 	return (sum);
 }
 
-/**
- * print_int - prints integer
+/**print_int - prints integer
  * @ap: argument pointer
  * @params: the parameters struct
  *
