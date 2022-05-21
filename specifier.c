@@ -8,7 +8,7 @@
  */
 int (*get_specifier(char *s))(va_list ap, params_t *params)
 {
-	convert_match specifiers[] = {
+	specifier_t specifiers[] = {
 		{"c", print_char},
 		{"d", print_int},
 		{"i", print_int},
